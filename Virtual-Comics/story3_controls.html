@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Comics</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="story1_controls.html">Story 1</a></li>
+            <li><a href="story2_controls.html">Story 2</a></li>
+            <li><a href="story3_controls.html">Story 3</a></li>
+
+          </ul>
+    </div>
+    <br>
+    <section class="slider">
+
+      <div class="slide-container">
+
+      </div>
+      <!-- buttons -->
+      <!-- prev btn -->
+      <button class="btn prev-btn">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <!-- next button -->
+      <button class="btn next-btn">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      <div class="question" style="visibility: hidden; margin-top: -400px;">
+        <h3> So, who should be allowed on the bus?</h3>
+        <button class="btn left-btn" > Person 1</button>
+        <button class="btn right-btn" > Person 2</button>
+      </div>
+      
+    </section>
+    <script type="module" src="story3_controls.js"></script>
+  </body>
+</html>
