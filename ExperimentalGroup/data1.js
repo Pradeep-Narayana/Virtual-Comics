@@ -1,29 +1,29 @@
 const people = [
     {
       img:
-        "./story1_controls/1.jpg"
+        "./Images/story1/1.jpg"
     },
     {
       img:
-      "./story1_controls/2.jpg"
+      "./Images/story1/2.jpg"
       
     },
     {
         img:
-        "./story1_controls/3.jpg"
+        "./Images/story1/3.jpg"
         
       },
     {
       img:
-      "./story1_controls/4.jpg"
+      "./Images/story1/4.jpg"
     },
     {
         img:
-        "./story1_controls/5.jpg"
+        "./Images/story1/5.jpg"
       },
       {
         img:
-        "./story1_controls/6.jpg"
+        "./Images/story1/6.jpg"
       },
   ];
   
